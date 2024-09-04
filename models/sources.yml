@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: snowdbt
+    database: snowflake_dbt   
+    schema: dbt_schema 
+    tables: 
+      - name: transactions_by_country
